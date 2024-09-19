@@ -1,0 +1,29 @@
+Var
+   // Seção de Declarações das variáveis
+   x,y:inteiro
+
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   escreval(" escreca o valor de x")
+   leia(x)
+   escreval("escreva o valor de y")
+   leia(y)
+      se x>y entao
+      escreval ("o valor de x e maior que o de y portanto e de ordem decrescente")
+   senao
+   escreval("o valor de y e maior que o de x portanto e de ordem decrescente")
+   fimse
+    enquanto x<>y faca
+     escreval(" escreca o valor de x")
+   leia(x)
+   escreval("escreva o valor de y")
+   leia(y)
+      se x>y entao
+      escreval ("o valor de x e maior que o de y portanto e de ordem decrescente")
+   senao
+   escreval("o valor de y e maior que o de x portanto e de ordem decrescente")
+   fimse
+   fimenquanto
+
+
+Fimalgoritmo
